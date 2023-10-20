@@ -941,12 +941,30 @@ align-items: center;
 .check-text a{
 color: var(--blue-brand-color);
 
+
 }
 .check-text-box{
   width: 16px;
   height: 16px;
   border-radius: 2px;
-  border: 1px solid var(--black-brand-color);
+  /* border: 1px solid var(--black-brand-color); */
+  border: 1px solid rgba(46, 47, 66, 0.4);
   display: block;
   margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+/* .check-text-icon{
+ 
+top: 4px;
+left: 3px;
+fill: transparent;
+} */
+
+.modal-check:checked + .check-text > .check-text-box{
+background-color:var(--order-but-color);
+border: none;
+fill: var(--white-brand-color);
 }

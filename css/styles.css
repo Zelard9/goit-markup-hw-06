@@ -850,11 +850,8 @@ transition: border-color 300ms linear;
   fill: var(--blue-brand-color);
 }
 .modal-form-btn{
-  padding: 16px,32px;
-  padding-top: 16px;
- padding-right: 32px;
- padding-bottom: 16px;
- padding-left: 32px;
+  padding: 16px 32px;
+ margin-top: 24px;
  border: none;
   border-radius: 4px;
   color: var(--back-color);
@@ -940,6 +937,7 @@ align-items: center;
 
 .check-text a{
 color: var(--blue-brand-color);
+
 
 
 }

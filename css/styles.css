@@ -716,7 +716,6 @@ img {
   align-items: baseline;
 }
 .footer-form-wrap {
- 
   margin-left: 80px;
 }
 .footer-form {
@@ -841,7 +840,7 @@ img {
 }
 .modal-form-btn {
   padding: 16px 32px;
- 
+
   min-width: 169px;
   border: none;
   border-radius: 4px;
@@ -851,8 +850,8 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
- display: block;
- margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 .modal-label {
   font-size: 12px;
@@ -882,7 +881,7 @@ img {
   position: relative;
   margin-bottom: 16px;
 }
-.coment-wrap{
+.coment-wrap {
   margin-bottom: 16px;
 }
 .textarea-wrap {
@@ -914,7 +913,7 @@ img {
   text-align: left;
 }
 
-.check-wrap{
+.check-wrap {
   margin-bottom: 24px;
 }
 .check-text {

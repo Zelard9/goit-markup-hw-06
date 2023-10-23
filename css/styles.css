@@ -819,7 +819,7 @@ img {
   border-radius: 50%;
   width: 24px;
   height: 24px;
-  margin-bottom: 16px;
+  
   background-color: var(--foot-text-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 1px rgba(0, 0, 0, 0.1);
@@ -911,7 +911,7 @@ img {
 
 .input-wrap {
   position: relative;
-  margin-bottom: 16px;
+  
 }
 .comment-wrap {
   margin-bottom: 16px;

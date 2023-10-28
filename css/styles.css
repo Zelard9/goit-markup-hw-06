@@ -33,8 +33,8 @@ img {
   display: block;
 }
 .container {
-  /* width: 1158px; */
-  width: 320px;
+  width: 1158px;
+  
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto;
@@ -266,6 +266,8 @@ img {
 }
 .work-sec-item {
   /* width: calc((100% - 72px) / 4); */
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .work-icon-container {
   width: 264px;
@@ -999,11 +1001,17 @@ fill: transparent;
   border: none;
   fill: var(--white-brand-color);
 }
-@media screen and (min-width:768px) {
-  .work-list{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+@media screen and (min-width:320px) {
+  .container{
+    max-width: 320px;
+
   }
   
 }
+@media screen and (min-width:768px) {
+
+  .container{
+    max-width: 768px;
+  }
+  
+} 

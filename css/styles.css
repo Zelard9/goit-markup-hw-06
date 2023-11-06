@@ -701,9 +701,9 @@ width: 264px;
 
   color: var(--foot-text-color);
 }
-.location-container {
+/* .location-container {
   margin-right: 120px;
-}
+} */
 .social-text {
   color: var(--back-color);
   font-family: Roboto;
@@ -765,11 +765,12 @@ width: 264px;
 
   align-items: baseline;
 }
-.footer-form-wrap {
+/* .footer-form-wrap {
   margin-left: 80px;
-}
+} */
 .footer-form {
   display: flex;
+  flex-direction: column;
   gap: 24px;
 }
 .form-text {

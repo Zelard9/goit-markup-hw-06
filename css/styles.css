@@ -520,8 +520,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 72px;
-
+  column-gap: 24px;
+  row-gap: 72px;
   list-style-type: none;
 }
 
